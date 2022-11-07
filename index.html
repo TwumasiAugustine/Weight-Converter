@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="app-box">
+            <div class="input-container">
+                <label for="gram">Enter a value in Kilogram</label>
+                <input type="number" placeholder="Enter your value" id="input">
+            </div>
+            <div class="input-container">
+                <label for="weights">Convert to:</label>
+                <select name="weights" id="weights">
+                    <option value="" disabled selected>--select--</option>
+                    <option value="Gram">Gram</option>
+                    <option value="Tonne">Tonne</option>
+                    <option value="Pound">Pound</option>
+                    <option value="Ounce">Ounce</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <button id="btn">Converter</button>
+            </div>
+            <div class="input-container">
+                <p id="output"> 2Kg = 2000g </p>
+                <div id="dev">
+                    <p>&copy; dev_twumstine 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
